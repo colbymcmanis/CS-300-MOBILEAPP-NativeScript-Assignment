@@ -23,5 +23,22 @@
         <Label text="Please tap me" class="text-3xl text-center" />
         <Button text="TAP" tap="{{ onTap }}" class="-primary" />
         <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
+
+      <ScrollView scroll="onScroll">
+  <GridLayout rows="30 30 30 30 30 30 30 30 30">
+    <Label row="0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+    <Label row="1" text="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+    <Label row="2" text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
+    <Label row="3" text="Duis aute irure dolor in reprehenderit in voluptate velit." />
+    <Label row="4" text="Excepteur sint occaecat cupidatat non proident, sunt in culpa." />
+    <Label row="5" text="Cras justo odio, dapibus ac facilisis in, egestas eget quam." />
+    <Label row="6" text="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum." />
+    <Label row="7" text="Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis." />
+   
+  </GridLayout>
+</ScrollView>
+
+ <Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
+
     </StackLayout>
 </Page>
