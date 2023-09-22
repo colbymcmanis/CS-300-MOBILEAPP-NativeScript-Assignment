@@ -1,4 +1,20 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+<SearchBar
+  id="searchBar"
+  hint="Enter search term here ..."
+  text="{{sbText}}"
+  clear="onClear"
+  submit="onSubmit"
+/>
+
+<DatePicker
+  year="2023"
+  month="9"
+  day="22"
+  loaded="onDatePickerLoaded"
+/>
+
     <ActionBar title="My App" icon="" />
     <StackLayout class="p-4">
         <Label text="Please tap me" class="text-3xl text-center" />
